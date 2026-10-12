@@ -1,0 +1,30 @@
+{
+  "name": "collab-editor-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src --ext .js",
+    "lint:fix": "eslint src --ext .js --fix"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4",
+    "socket.io": "^4.7.5",
+    "yjs": "^13.6.32"
+  },
+  "devDependencies": {
+    "axios": "^1.19.0",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2",
+    "socket.io-client": "^4.8.3",
+    "y-protocols": "^1.0.7"
+  }
+}

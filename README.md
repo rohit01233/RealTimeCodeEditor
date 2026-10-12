@@ -1,4 +1,4 @@
-# Collab Editor
+# RealTime Collab Editor
 
 Collab Editor is a real-time collaborative JavaScript editor. Users can create rooms, invite collaborators with different permissions, edit the same document through a CodeMirror interface, and retrieve persisted document versions.
 
